@@ -1,0 +1,75 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.container {
+    
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+@media screen and (max-width: 650px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+
+/* Left container */
+.left-container {
+    border-top: 1px solid gray;
+    width: 60%;
+    padding: 20px;
+}
+
+.right-container {
+    width: 40%;
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.right-container h2 {
+    margin-bottom: 10px;
+}
+
+.tweet-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.tweet-card .topcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 10px;
+}
+
+.tweet-card .topcontainer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-card textarea {
+    flex: 1;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.tweet-card .delete-button {
+    background-image: url('https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
